@@ -256,6 +256,7 @@ module.exports = function(
   }
   console.log();
   console.log('Happy hacking!');
+  console.log(chalk.red('VERY IMPORTANT:'));
 };
 
 function isReactInstalled(appPackage) {
